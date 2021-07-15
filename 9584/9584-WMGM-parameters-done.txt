@@ -1,0 +1,11 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 3T
+coil PRODUCT
+sequence PRODUCT
+ta 352
+data multi-echo T2*w
+FILES:
+9584-0_0-medic_pt4by3mm_1.nii.gz
+9584-0_1-medic_pt4by3mm_2.nii.gz
+9584-0_2-Haleh_ISMRM_Protocol.pdf

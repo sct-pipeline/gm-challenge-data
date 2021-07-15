@@ -1,0 +1,11 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 3T
+coil PRODUCT
+sequence PRODUCT
+ta 594
+data multi-slice T2* FFE
+FILES:
+9418-0_0-scan1.nii
+9418-0_1-scan2.nii
+9418-0_2-UCLqsmsc_2Dffe_20180416.pdf

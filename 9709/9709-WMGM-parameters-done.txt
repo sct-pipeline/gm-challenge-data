@@ -1,0 +1,10 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 1.5T
+coil PRODUCT
+sequence PRODUCT
+data e.g.: multi-echo T2*w, PSIR, ...
+FILES:
+9709-0_0-20180531_183601t2me2dtra2AVGTR505TE27FA30s002a1001.nii.gz
+9709-0_1-20180531_183601t2me2dtra2AVGTR505TE27FA30s003a1001.nii.gz
+9709-0_2-t2_me2d_tra.2AVG_2018.pdf

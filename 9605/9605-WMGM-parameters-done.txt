@@ -1,0 +1,10 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 7T
+coil CUSTOM
+sequence CUSTOM
+data Root-sum-of-squares combination of three interleaved monopolar multi-echo GRE acquisitions
+FILES:
+9605-0_0-img1.nii.gz
+9605-0_1-img2.nii.gz
+9605-0_2-protocol.pdf

@@ -1,0 +1,7 @@
+The following metric values were calculated:
+                        
+SNR        10.4261807865
+Contrast        0.173381
+Sharpness      16.142093
+
+A text file containing this information, as well as the image segmentations, is available for download through the link below. Please note that these are the intermediate results (automatically processed). We acknowledge that manual adjustment of the cord and gray matter segmentations might be necessary. They will be performed in the next few days, and the final results will be sent back to you.

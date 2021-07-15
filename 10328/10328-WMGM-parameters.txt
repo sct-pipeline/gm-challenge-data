@@ -1,0 +1,10 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 3T
+coil PRODUCT
+sequence PRODUCT
+data multi-ecoT2*-MEDIC
+FILES:
+10328-0_0-avg_2018-07-19.nii
+10328-0_1-avg_dummy__2018-07-19%20.nii
+10328-0_2-MEDIC_Protocol_Skyra3T_Maryam-Seif.pdf

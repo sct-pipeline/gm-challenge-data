@@ -1,0 +1,10 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 3T
+coil PRODUCT
+sequence PRODUCT
+data multi-echo T2*w, MEDIC
+FILES:
+10062-0_0-session1_t2_me2d_tra_p2_07X07_5echoes.nii.gz
+10062-0_1-session2_t2_me2d_tra_p2_07X07_5echoes.nii.gz
+10062-0_2-t2_me2d_tra_p2_07X07_5echoes.pdf

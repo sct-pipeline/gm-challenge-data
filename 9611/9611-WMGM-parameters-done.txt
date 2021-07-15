@@ -1,0 +1,10 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 7T
+coil PRODUCT
+sequence PRODUCT
+data Multi-echo T2*w GRE
+FILES:
+9611-0_0-images_017_jvgre10TE2mm1001_trace15Cav.nii.gz
+9611-0_1-images_018_jvgre10TE2mm1001_trace15Cav.nii.gz
+9611-0_2-GRE_10TE_2mm.pdf

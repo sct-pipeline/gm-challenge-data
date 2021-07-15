@@ -1,0 +1,10 @@
+URL-TIG: http://cmictig.cs.ucl.ac.uk/niftyweb/
+PARAMETERS:
+field 3T
+coil PRODUCT
+sequence PRODUCT
+data medic
+FILES:
+9669-0_0-t2s_1.nii.gz
+9669-0_1-t2s_2.nii.gz
+9669-0_2-spine_generic_siemens-prisma.pdf
