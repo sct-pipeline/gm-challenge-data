@@ -1,0 +1,14 @@
+{
+    "participant_id": {
+        "Description": "Unique Participant ID",
+        "LongName": "Participant ID"
+    },
+    "sex": {
+        "Description": "M or F",
+        "LongName": "Participant sex"
+    },
+    "age": {
+        "Description": "yy",
+        "LongName": "Participant age"
+    }
+}
