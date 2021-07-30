@@ -1,0 +1,1359 @@
+{
+	"history": {
+		"procstep": {
+			"descrip": "dicom to nifti import",
+			"version": [
+				"matlab 9.7.0.1190202 (R2019b)",
+				"spm_dicom_convert.m - SPM12 (7219)"
+			],
+			"procpar": []
+		},
+		"input": {
+			"filename": "AnonymousFileName",
+			"history": []
+		},
+		"output": {
+			"imtype": "ORIGINAL\\PRIMARY\\M\\ND ",
+			"units": "a.u."
+		}
+	},
+	"acqpar": [
+		{
+			"FileMetaInformationGroupLength": 194,
+			"FileMetaInformationVersion": [0,1],
+			"MediaStorageSOPClassUID": "1.2.840.10008.5.1.4.1.1.4",
+			"MediaStorageSOPInstanceUID": "1.3.12.2.1107.5.2.0.79114.2021072013503776714301650",
+			"TransferSyntaxUID": "1.2.840.10008.1.2.4.70",
+			"ImplementationClassUID": "1.3.6.1.4.1.28841.0.1.0.3.6.3",
+			"ImplementationVersionName": "MERLIN_363",
+			"SpecificCharacterSet": "ISO_IR 100",
+			"ImageType": "ORIGINAL\\PRIMARY\\M\\ND ",
+			"InstanceCreationDate": 738357,
+			"InstanceCreationTime": 49838.056,
+			"SOPClassUID": "1.2.840.10008.5.1.4.1.1.4",
+			"SOPInstanceUID": "1.3.12.2.1107.5.2.0.79114.2021072013503776714301650",
+			"StudyDate": 738357,
+			"SeriesDate": 738357,
+			"AcquisitionDate": 738357,
+			"ContentDate": 738357,
+			"StudyTime": 48420,
+			"SeriesTime": 49838.004,
+			"AcquisitionTime": 49638.12,
+			"ContentTime": 49838.056,
+			"Modality": "MR",
+			"Manufacturer": "SIEMENS ",
+			"InstitutionName": "SCMI Balgrist Campus",
+			"InstitutionAddress": "Lengghalde 5,Zuerich ,ZH,CH,8008",
+			"StationName": "Terra ",
+			"StudyDescription": "MARYAM^C-SPINE",
+			"SeriesDescription": "gre_4TE_TR400_FA39_measure3 ",
+			"InstitutionalDepartmentName": "SCMI",
+			"ManufacturerModelName": "Terra ",
+			"ReferencedPerformedProcedureStepSequence": [
+				{
+					"ReferencedSOPClassUID": "1.2.840.10008.3.1.2.3.3",
+					"ReferencedSOPInstanceUID": "1.3.12.2.1107.5.2.0.79114.30000021072011274491800000000"
+				}
+			],
+			"ReferencedImageSequence": [
+				{
+					"ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.4",
+					"ReferencedSOPInstanceUID": "1.3.12.2.1107.5.2.0.79114.2021072013291538283900045"
+				},
+				{
+					"ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.4",
+					"ReferencedSOPInstanceUID": "1.3.12.2.1107.5.2.0.79114.202107201329197669200053"
+				},
+				{
+					"ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.4",
+					"ReferencedSOPInstanceUID": "1.3.12.2.1107.5.2.0.79114.2021072013292092476900057"
+				}
+			],
+			"DerivationDescription": "Lossless JPEG compression, selection value 1, point transform 0, compression ratio 2.1597",
+			"DerivationCodeSequence": [
+				{
+					"CodeValue": "121327",
+					"CodingSchemeDesignator": "DCM ",
+					"CodeMeaning": "Full fidelity image, uncompressed or lossless compressed"
+				}
+			],
+			"PatientName": "Anonymous",
+			"PatientSex": "F ",
+			"PatientAge": 24.4,
+			"PatientSize": 1.63,
+			"PatientWeight": 50,
+			"BodyPartExamined": "CSPINE",
+			"ScanningSequence": "GR",
+			"SequenceVariant": "SP",
+			"MRAcquisitionType": "2D",
+			"SequenceName": "*fl2d4",
+			"AngioFlag": "N ",
+			"SliceThickness": 3,
+			"RepetitionTime": 400,
+			"EchoTime": 4.55,
+			"NumberOfAverages": 1,
+			"ImagingFrequency": 297.179508,
+			"ImagedNucleus": "1H",
+			"EchoNumbers": 1,
+			"MagneticFieldStrength": 7,
+			"SpacingBetweenSlices": 6,
+			"NumberOfPhaseEncodingSteps": 500,
+			"EchoTrainLength": 4,
+			"PercentSampling": 100,
+			"PercentPhaseFieldOfView": 100,
+			"PixelBandwidth": 250,
+			"DeviceSerialNumber": "79114 ",
+			"SoftwareVersions": "syngo MR E12",
+			"ProtocolName": "gre_4TE_TR400_FA39_measure3 ",
+			"TransmitCoilName": "1Tx8Rx_CSpine ",
+			"AcquisitionMatrix": [500,0,0,500],
+			"InPlanePhaseEncodingDirection": "COL ",
+			"FlipAngle": 39,
+			"VariableFlipAngleFlag": "N ",
+			"SAR": 0.06586363887304,
+			"dBdt": 0,
+			"PatientPosition": "HFS ",
+			"Private_0019_0010": "SIEMENS MR HEADER ",
+			"Private_0019_1008": "IMAGE NUM 4 ",
+			"Private_0019_1009": "1.0 ",
+			"Private_0019_100b": 199600,
+			"Private_0019_100f": "Fast",
+			"Private_0019_1011": "No",
+			"Private_0019_1012": [0,0,-2208],
+			"Private_0019_1013": [0,0,-2208],
+			"Private_0019_1014": [0,0,0],
+			"Private_0019_1015": [-64.00000304,-58.64208322,-34.88559491],
+			"Private_0019_1016": 0.2,
+			"Private_0019_1017": 1,
+			"Private_0019_1018": 4000,
+			"StudyInstanceUID": "1.3.12.2.1107.5.2.0.79114.30000021072011263784100000004",
+			"SeriesInstanceUID": "1.3.12.2.1107.5.2.0.79114.2021072013471542743601568.0.0.0",
+			"StudyID": "1 ",
+			"SeriesNumber": 7,
+			"AcquisitionNumber": 1,
+			"InstanceNumber": 1,
+			"ImagePositionPatient": [-64.000003039837,-58.642083224861,-34.885594911225],
+			"ImageOrientationPatient": [1,0,0,0,0.99275734119381,0.12013684491361],
+			"FrameOfReferenceUID": "1.3.12.2.1107.5.2.0.79114.1.20210720132745106.0.0.0",
+			"SliceLocation": -27.587855592236,
+			"SamplesPerPixel": 1,
+			"PhotometricInterpretation": "MONOCHROME2 ",
+			"Rows": 500,
+			"Columns": 500,
+			"PixelSpacing": [0.25600001215935,0.25600001215935],
+			"BitsAllocated": 16,
+			"BitsStored": 12,
+			"HighBit": 11,
+			"PixelRepresentation": 0,
+			"SmallestImagePixelValue": 0,
+			"LargestImagePixelValue": 1344,
+			"WindowCenter": 410,
+			"WindowWidth": 943,
+			"WindowCenterWidthExplanation": "Algo1 ",
+			"PrivateCreatorCode": "SIEMENS CSA HEADER",
+			"AnotherPrivateCreatorCode": "SIEMENS MEDCOM HEADER2",
+			"CSAImageHeaderType": "IMAGE NUM 4 ",
+			"CSAImageHeaderVersion": "20210720",
+			"CSAImageHeaderInfo": {
+				"EchoLinePosition": 250,
+				"EchoColumnPosition": 250,
+				"EchoPartitionPosition": 16,
+				"UsedChannelString": "XXXXXXXX",
+				"ICE_Dims": "X_1_1_1_1_1_1_7_1_1_1_1_27",
+				"ProtocolSliceNumber": 0,
+				"RealDwellTime": 4000,
+				"SliceMeasurementDuration": 199600,
+				"SequenceMask": 134217728,
+				"AcquisitionMatrixText": "500*500",
+				"MeasuredFourierLines": 0,
+				"PhaseEncodingDirectionPositive": 1,
+				"TimeAfterStart": 0.2,
+				"ImaAbsTablePosition": [0,0,-2208],
+				"NonPlanarImage": 0,
+				"SlicePosition_PCS": [-64.00000304,-58.64208322,-34.88559491],
+				"MultistepIndex": 0,
+				"ImaRelTablePosition": [0,0,0],
+				"ImaCoilString": "CSP",
+				"RFSWDDataType": "predicted",
+				"GSWDDataType": "predicted",
+				"ImageHistory": "CC:SoS",
+				"ContentQualification": "RESEARCH"
+			},
+			"CSASeriesHeaderType": "MR",
+			"CSASeriesHeaderVersion": "20210720",
+			"CSASeriesHeaderInfo": {
+				"UsedPatientWeight": 50,
+				"NumberOfPrescans": 0,
+				"TransmitterCalibration": 328.181857,
+				"PhaseGradientAmplitude": 0,
+				"ReadoutGradientAmplitude": 0,
+				"SelectionGradientAmplitude": 0,
+				"GradientDelayTime": [30,29,26],
+				"RfWatchdogMask": 0,
+				"Sed": [1000000,49.57440308,49.57440308],
+				"SequenceFileOwner": "SIEMENS",
+				"Stim_mon_mode": 2,
+				"Operation_mode_flag": 2,
+				"dBdt_max": 0,
+				"t_puls_max": 0,
+				"dBdt_thresh": 0,
+				"dBdt_limit": 0,
+				"SW_korr_faktor": 1,
+				"Stim_max_online": [5.71951056,8.59704208,0.85368496],
+				"Stim_max_ges_norm_online": 0.9774504899999999,
+				"Stim_lim": [9.1649704,11.59566021,6.69078016],
+				"Stim_faktor": 1,
+				"CoilForGradient": "void",
+				"CoilForGradient2": "SC72CD",
+				"CoilId": [238,121,238,238,238,238,238,238,238,238,238],
+				"MiscSequenceParam": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7324,0,0,0,0,0,0],
+				"MrProtocolVersion": 51280000,
+				"PositivePCSDirections": "+LPH",
+				"RelTablePosition": [0,0,0],
+				"ReadoutOS": 2,
+				"LongModelName": "NUMARIS/4",
+				"SliceArrayConcatenations": 1,
+				"SliceResolution": 1,
+				"AbsTablePosition": -2208,
+				"CoilString": "CSP",
+				"PatReinPattern": "1;HFS;50.00;24.00;1;0;2;835196538",
+				"ProtocolChangeHistory": 0,
+				"Isocentered": 0,
+				"MrPhoenixProtocol": {
+					"ulVersion": 51280000,
+					"tSequenceFileName": "%SiemensSeq%\\gre",
+					"tProtocolName": "gre_4TE_TR400_FA39_measure3",
+					"tdefaultEVAProt": "%SiemensEvaDefProt%\\Breast\\Breast.evp",
+					"tReferenceImage0": "1.3.12.2.1107.5.2.0.79114.2021072013291538283900045",
+					"tReferenceImage1": "1.3.12.2.1107.5.2.0.79114.202107201329197669200053",
+					"tReferenceImage2": "1.3.12.2.1107.5.2.0.79114.2021072013292092476900057",
+					"lScanRegionPosTra": 0,
+					"ucScanRegionPosValid": 1,
+					"lPtabAbsStartPosZ": -2208,
+					"bPtabAbsStartPosZValid": 1,
+					"ucTablePositioningMode": 1,
+					"lContrasts": 4,
+					"lCombinedEchoes": 1,
+					"ucEnableIntro": 1,
+					"ucDisableChangeStoreImages": 1,
+					"ucAAMode": 1,
+					"ucAARegionMode": 1,
+					"ucAARefMode": 1,
+					"ucReconstructionMode": 1,
+					"ucPhaseStabilize": 1,
+					"ucOneSeriesForAllMeas": 4,
+					"ucPHAPSMode": 1,
+					"ulWrapUpMagn": 1,
+					"lAverages": 1,
+					"dAveragesDouble": 1,
+					"lRepetitions": 2,
+					"lScanTimeSec": 200,
+					"lTotalScanTimeSec": 603,
+					"dRefSNR": 6217.2908621,
+					"dRefSNR_VOI": 6217.2908621,
+					"ulApplicationDetails": 1,
+					"ucMotionCorr": 1,
+					"ucCineMode": 1,
+					"ucSequenceType": 1,
+					"ucCoilCombineMode": 1,
+					"ucFlipAngleMode": 1,
+					"lTOM": 1,
+					"lProtID": -94,
+					"lSequenceID": 27,
+					"ucReadOutMode": 2,
+					"ucBold3dPace": 1,
+					"ucForcePositioningOnNDIS": 1,
+					"ucInternalTablePosValid": 1,
+					"ucTmapB0Correction": 1,
+					"ucTmapEval": 1,
+					"ucTmapImageType": 1,
+					"ulOrganUnderExamination": 1,
+					"dTissueT1": 10,
+					"dTissueT2": 5,
+					"lInvContrasts": 1,
+					"ulReaquisitionMode": 1,
+					"sProtConsistencyInfo": {
+						"tMeasuredBaselineString": "N4_VE12U_LATEST_20181126",
+						"tBaselineString": "N4_VE12U_LATEST_20181126",
+						"tSystemType": "042",
+						"flNominalB0": 6.98093605042,
+						"flGMax": 40,
+						"flRiseTime": 5,
+						"lMaximumNofRxReceiverChannels": 64,
+						"ulConvFromVersion": 51280000
+					},
+					"sGRADSPEC": {
+						"ucMode": 1,
+						"bShimCurrentValid": 1,
+						"ucNoiseReduction": 1,
+						"asGPAData": {
+							"bEddyCompensationValid": 1,
+							"bB0CompensationValid": 1,
+							"bCrossTermCompensationValid": 1,
+							"lOffsetX": 8,
+							"lOffsetY": -608,
+							"lOffsetZ": -189,
+							"bOffsetValid": 1,
+							"lDelayX": 30,
+							"lDelayY": 29,
+							"lDelayZ": 26,
+							"bDelayValid": 1,
+							"flSensitivityX": 0.000170266997884,
+							"flSensitivityY": 0.000168582002516,
+							"flSensitivityZ": 0.000168412996572,
+							"bSensitivityValid": 1,
+							"sEddyCompensationX": {
+								"aflAmplitude": [0.00117225002032,-8.43948000693e-05,0.00331762991846,0.000206159005756,0.00288098002784],
+								"aflTimeConstant": [0.33568200469,0.178659006953,0.132704004645,0.0499260015786,0.000498593028169]
+							},
+							"sEddyCompensationY": {
+								"aflAmplitude": [0.000115153001389,0.00508151995018,0.00467093009502,0.000274088990409,0.00335968006402],
+								"aflTimeConstant": [1.61523997784,0.247525006533,0.130772992969,0.0126435002312,0.000756423978601]
+							},
+							"sEddyCompensationZ": {
+								"aflAmplitude": [0.000164947996382,0.00263246009126,0.0109138004482,-0.0052608801052,0.009218489751219999],
+								"aflTimeConstant": [0.758980989456,0.2245080024,0.140387997031,0.00100555003155,0.0007560999947600001]
+							},
+							"sB0CompensationX": {
+								"aflAmplitude": [0.00339842005633,0.0592666007578,0.021276300773],
+								"aflTimeConstant": [1.99993002415,0.193020001054,0.00225545000285]
+							},
+							"sB0CompensationY": {
+								"aflAmplitude": [-0.00601009000093,-0.136277005076,-0.0443428009748],
+								"aflTimeConstant": [2.00010991096,0.178323000669,0.00143762002699]
+							},
+							"sB0CompensationZ": {
+								"aflAmplitude": [0.247996002436,0.0401193015277,0.0382519997656],
+								"aflTimeConstant": [0.154804006219,0.101728998125,0.00119880994316]
+							},
+							"sCrossTermCompensationXY": {
+								"aflAmplitude": 0.00139210000634,
+								"aflTimeConstant": 0.153254002333
+							},
+							"sCrossTermCompensationXZ": {
+								"aflAmplitude": 0.000209666002775,
+								"aflTimeConstant": 0.222891002893
+							},
+							"sCrossTermCompensationYX": {
+								"aflAmplitude": -0.000108646003355,
+								"aflTimeConstant": 0.363534986973
+							},
+							"sCrossTermCompensationYZ": {
+								"aflAmplitude": -0.000568336981814,
+								"aflTimeConstant": 0.166207998991
+							},
+							"sCrossTermCompensationZX": {
+								"aflAmplitude": 9.31198010221e-05,
+								"aflTimeConstant": 0.12069799751
+							},
+							"sCrossTermCompensationZY": {
+								"aflAmplitude": -0.000288904004265,
+								"aflTimeConstant": 0.115634001791
+							}
+						},
+						"alShimCurrent": [-1128,-61,2870,-940,697,7402,-666,9750,2170]
+					},
+					"sTXSPEC": {
+						"bTxScaleFactorsValid": 1,
+						"lNoOfTraPulses": 1,
+						"lBCExcitationMode": 1,
+						"lBCSeqExcitationMode": 4,
+						"flKDynMagnitudeMin": 0.5,
+						"flKDynMagnitudeMax": 1.5,
+						"flKDynMagnitudeClipLow": 1,
+						"flKDynMagnitudeClipHigh": 1,
+						"flKDynPhaseMax": 0.698131978512,
+						"flKDynPhaseClip": 0.174532994628,
+						"bKDynValid": 1,
+						"ucRFPulseType": 2,
+						"ucExcitMode": 1,
+						"ucSimultaneousExcitation": 1,
+						"ucBCExcitationModeValid": 1,
+						"lB1ShimMode": 1,
+						"asNucleusInfo": [
+							{
+								"tNucleus": "1H",
+								"lCoilSelectIndex": 0,
+								"lFrequency": 297179508,
+								"bFrequencyValid": 1,
+								"flReferenceAmplitude": 328.181854248,
+								"bReferenceAmplitudeValid": 1,
+								"flCompProtectionRefAmpl": 328.181854248,
+								"bCompProtectionRefAmplValid": 1,
+								"flCompProtectionB1PlusRefAmpl": 326.249694824,
+								"bCompProtectionB1PlusRefAmplValid": 1,
+								"flAmplitudeCorrection": 1,
+								"bAmplitudeCorrectionValid": 1,
+								"bCompProtectionValuesValid": 1,
+								"CompProtectionValues": {
+									"MaxOfflineTxAmpl": 516.467224121,
+									"WorstCasePulseScaleRefAmpl": 328.181854248,
+									"WorstCaseMaxOfflineTxAmpl": 516.467224121,
+									"DecouplingMatrixValid": 1,
+									"ZZMatrixVectorUUID": "95fada65880a012d794baf970e721f10bb1ea311",
+									"ScatterMatrixValid": 1,
+									"MaxOnlineTxAmpl": 534.503967285,
+									"WorstCaseMaxOnlineTxAmpl": 534.503967285,
+									"adGainVariation": 1.03492331505,
+									"DecouplingMatrix": {
+										"Size1": 2,
+										"Size2": 2,
+										"ComplexData": {
+											"dRe": 1
+										}
+									},
+									"ScatterMatrix": {
+										"Size1": 1,
+										"Size2": 1,
+										"ComplexData": {
+											"dRe": 0.0429731361657,
+											"dIm": 0.140799062683
+										}
+									}
+								}
+							},
+							{
+								"tNucleus": [],
+								"lCoilSelectIndex": -1,
+								"lFrequency": [],
+								"bFrequencyValid": [],
+								"flReferenceAmplitude": [],
+								"bReferenceAmplitudeValid": [],
+								"flCompProtectionRefAmpl": [],
+								"bCompProtectionRefAmplValid": [],
+								"flCompProtectionB1PlusRefAmpl": [],
+								"bCompProtectionB1PlusRefAmplValid": [],
+								"flAmplitudeCorrection": [],
+								"bAmplitudeCorrectionValid": [],
+								"bCompProtectionValuesValid": [],
+								"CompProtectionValues": []
+							}
+						],
+						"aRFPULSE": {
+							"tName": "SRFExcit",
+							"flAmplitude": 101.468643188,
+							"flAmplitudeNL": 101.468643188,
+							"bAmplitudeValid": 1
+						},
+						"aTxScaleFactor": [
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							},
+							{
+								"dRe": 1
+							}
+						],
+						"B1CorrectionParameters": {
+							"bValid": 1,
+							"bActive": 0,
+							"flCorrectionFactorMax": 1,
+							"flPeakReserveFactor": 0
+						}
+					},
+					"sRXSPEC": {
+						"lGain": 1,
+						"bGainValid": 1,
+						"UseDoubleDataRate": 0,
+						"asNucleusInfo": [
+							{
+								"tNucleus": "1H",
+								"lCoilSelectIndex": 0
+							},
+							{
+								"tNucleus": [],
+								"lCoilSelectIndex": -1
+							}
+						],
+						"alDwellTime": [4000,4000,4000,4000,4000,4000,4000,4000,4000,4000,4000,4000]
+					},
+					"sAdjData": {
+						"uiAdjFreMode": 1,
+						"uiAdjShimMode": 512,
+						"uiAdjWatSupMode": 1,
+						"uiAdjRFMapMode": 1,
+						"uiAdjMDSMode": 1,
+						"uiAdjTableTolerance": 1,
+						"uiAdjProtID": 7,
+						"uiAdjVolumeValid": 1,
+						"lCoupleAdjVolTo": 1,
+						"uiAdjB0AcqMode": 1,
+						"uiAdjB1AcqMode": 1,
+						"sAdjVolume": {
+							"dThickness": 85,
+							"dPhaseFOV": 35,
+							"dReadoutFOV": 60,
+							"sPosition": {
+								"dSag": -4.65007668383,
+								"dCor": 3.75099861549,
+								"dTra": 3.71910058665
+							},
+							"sNormal": {
+								"dCor": -0.1415696705,
+								"dTra": 0.9899282946
+							}
+						}
+					},
+					"alTR": 400000,
+					"alTI": 300000,
+					"alTE": [4550,8810,13070,17330,30000,35000,40000,45000,50000,55000,60000,65000],
+					"acFlowComp": [1,1,1,1,1,1,1,1,1,1,1,1],
+					"sSliceArray": {
+						"lSize": 12,
+						"lConc": 1,
+						"ucMode": 4,
+						"ucAnatomicalSliceMode": 4,
+						"asSlice": [
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": 4.89438963466,
+									"dTra": -27.1968357179
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": 4.17356860126,
+									"dTra": -21.2402916665
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": 3.45274756786,
+									"dTra": -15.2837476151
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": 2.73192653446,
+									"dTra": -9.32720356373
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": 2.01110550106,
+									"dTra": -3.37065951233
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": 1.29028446766,
+									"dTra": 2.58588453907
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": 0.569463434259,
+									"dTra": 8.542428590469999
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": -0.151357599141,
+									"dTra": 14.4989726419
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": -0.872178632541,
+									"dTra": 20.4555166933
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": -1.59299966594,
+									"dTra": 26.4120607447
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": -2.31382069934,
+									"dTra": 32.3686047961
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							},
+							{
+								"dThickness": 3,
+								"dPhaseFOV": 128,
+								"dReadoutFOV": 128,
+								"sPosition": {
+									"dCor": -3.03464173274,
+									"dTra": 38.3251488475
+								},
+								"sNormal": {
+									"dCor": -0.1201368389,
+									"dTra": 0.9927573419
+								}
+							}
+						],
+						"alSliceAcqOrder": [0,1,2,3,4,5,6,7,8,9,10,11],
+						"anAsc": [0,1,2,3,4,5,6,7,8,9,10,11],
+						"anPos": [0,1,2,3,4,5,6,7,8,9,10,11],
+						"sTSat": {
+							"dThickness": 40,
+							"dGap": 10,
+							"ulShape": 1
+						}
+					},
+					"sGroupArray": {
+						"lSize": 1,
+						"asGroup": {
+							"nSize": 12,
+							"dDistFact": 1
+						},
+						"anMember": [0,1,2,3,4,5,6,7,8,9,10,11,-1],
+						"sPSat": {
+							"dThickness": 50,
+							"dGap": 10,
+							"ulShape": 1
+						}
+					},
+					"sRSatArray": {
+						"asElm": [
+							{
+								"ulShape": 1
+							},
+							{
+								"ulShape": 1
+							},
+							{
+								"ulShape": 1
+							},
+							{
+								"ulShape": 1
+							},
+							{
+								"ulShape": 1
+							},
+							{
+								"ulShape": 1
+							},
+							{
+								"ulShape": 1
+							},
+							{
+								"ulShape": 1
+							}
+						]
+					},
+					"sAutoAlign": {
+						"dAAMatrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+					},
+					"sNavigatorPara": {
+						"lBreathHoldDuration_us": 15000000,
+						"lBreathHoldMeas": 1,
+						"lRespComp": 4
+					},
+					"sBladePara": {
+						"dBladeCoverage": 100,
+						"ucMotionCorr": 2
+					},
+					"sPrepPulses": {
+						"ucFatSat": 4,
+						"ucWaterSat": 4,
+						"ucInversion": 4,
+						"ucSatRecovery": 1,
+						"ucT2Prep": 1,
+						"ucTIScout": 1,
+						"ucFatSatMode": 2,
+						"dDarkBloodThickness": 200,
+						"dDarkBloodFlipAngle": 200,
+						"dIRPulseThicknessFactor": 0.77,
+						"ucBloodSuppression": 1,
+						"lPhaseCorrectionMode": 1,
+						"ucIRScheme": 1,
+						"lFatSupOpt": 1,
+						"adT2PrepDuration": 40
+					},
+					"sLineTag": {
+						"dDistance": 20
+					},
+					"sGridTag": {
+						"dDistance": 8
+					},
+					"sKSpace": {
+						"dPhaseResolution": 1,
+						"dSliceResolution": 1,
+						"dAngioDynCentralRegionA": 20,
+						"dAngioDynSamplingDensityB": 25,
+						"dSeqPhasePartialFourierForSNR": 1,
+						"lBaseResolution": 500,
+						"lPhaseEncodingLines": 500,
+						"lPartitions": 32,
+						"lImagesPerSlab": 32,
+						"lRadialViews": 64,
+						"lRadialInterleavesPerImage": 2,
+						"lLinesPerShot": 1,
+						"unReordering": 1,
+						"ucPhasePartialFourier": 16,
+						"ucSlicePartialFourier": 16,
+						"ucAveragingMode": 2,
+						"ucMultiSliceMode": 2,
+						"ucDimension": 2,
+						"ucTrajectory": 1,
+						"ucViewSharing": 1,
+						"ucAsymmetricEchoMode": 1,
+						"ucPOCS": 1,
+						"ucReadoutPartialFourier": 16
+					},
+					"sFastImaging": {
+						"lEPIFactor": 1,
+						"lTurboFactor": 1,
+						"lSliceTurboFactor": 1,
+						"lSegments": 1,
+						"ulEnableRFSpoiling": 1,
+						"ucPhaseEncRE": 0,
+						"ucSegmentationMode": 1,
+						"lShots": 1,
+						"lEchoTrainDuration": 700
+					},
+					"sPhysioImaging": {
+						"lSignal1": 1,
+						"lMethod1": 1,
+						"lSignal2": 1,
+						"lMethod2": 1,
+						"lPhases": 1,
+						"lRetroGatedImages": 16,
+						"lDummyHeartbeats": 0,
+						"ucAlwaysSendPhysioData": 0,
+						"sPhysioECG": {
+							"lTriggerPulses": 1,
+							"lTriggerWindow": 5,
+							"lArrhythmiaDetection": 1,
+							"lCardiacGateOnThreshold": 100000,
+							"lCardiacGateOffThreshold": 700000,
+							"lTriggerIntervals": 1
+						},
+						"sPhysioPulse": {
+							"lScanWindow": 903,
+							"lTriggerPulses": 1,
+							"lTriggerWindow": 5,
+							"lArrhythmiaDetection": 1,
+							"lCardiacGateOnThreshold": 100000,
+							"lCardiacGateOffThreshold": 700000,
+							"lTriggerIntervals": 1
+						},
+						"sPhysioExt": {
+							"lTriggerPulses": 1,
+							"lTriggerWindow": 5,
+							"lArrhythmiaDetection": 1,
+							"lCardiacGateOnThreshold": 100000,
+							"lCardiacGateOffThreshold": 700000,
+							"lTriggerIntervals": 1
+						},
+						"sPhysioExt2": {
+							"lTriggerIntervals": 1
+						},
+						"sPhysioResp": {
+							"lRespGateThreshold": 20,
+							"lRespGatePhase": 2,
+							"dGatingRatio": 0.3
+						},
+						"sPhysioNative": {
+							"ucMode": 1,
+							"ucFlowSenMode": 1
+						}
+					},
+					"sSpecPara": {
+						"lPhaseCyclingType": 1,
+						"lPhaseEncodingType": 1,
+						"lRFExcitationBandwidth": 1,
+						"ucRemoveOversampling": 1,
+						"lAutoRefScanMode": 1,
+						"lAutoRefScanNo": 1,
+						"lDecouplingType": 1,
+						"lNOEType": 1,
+						"lExcitationType": 1,
+						"lSpecAppl": 1,
+						"lSpectralSuppression": 1
+					},
+					"sDiffusion": {
+						"ulMode": 1,
+						"dsScheme": 1,
+						"ulQSpaceCoverage": 1,
+						"ulQSpaceSampling": 1,
+						"lQSpaceSteps": 1,
+						"sFreeDiffusionData": {
+							"ulCoordinateSystem": 1,
+							"ulNormalization": 1
+						}
+					},
+					"sAngio": {
+						"ucPCFlowMode": 2,
+						"ucTOFInflow": 4,
+						"lDynamicReconMode": 1,
+						"lTemporalInterpolation": 1
+					},
+					"sPreScanNormalizeFilter": {
+						"ucMode": 2
+					},
+					"sDistortionCorrFilter": {
+						"ucMode": 1
+					},
+					"sNoiseDecorrData": {
+						"lNoiseDecorrDefaultMode": 4
+					},
+					"sPat": {
+						"lAccelFactPE": 1,
+						"lAccelFact3D": 1,
+						"ucPATMode": 1,
+						"ucRefScanMode": 1,
+						"ucTPatAverageAllFrames": 1,
+						"ulCaipirinhaMode": 1
+					},
+					"sMds": {
+						"ulMdsModeMask": 1,
+						"ulMdsVariableResolution": 1,
+						"lTableSpeedNumerator": 2,
+						"lmdsLinesPerSegment": 15,
+						"lMdsPtabAbsStartPosZ": 0,
+						"bMdsPtabAbsStartPosZValid": 0,
+						"lMdsPtabAbsEndPosZ": 0,
+						"bMdsPtabAbsEndPosZValid": 0,
+						"ulMdsReconMode": 1,
+						"dMdsRangeExtension": 500,
+						"lBreathHoldRepeatedSegments": 2,
+						"lSweeps": 1,
+						"ucSweepMode": 1,
+						"dDCSIlluminationScale": 2,
+						"ucExcitDir": 1,
+						"ucFreqShimPerSlice": 1,
+						"ucSliceFollowing": 1,
+						"ucDynamicCoilSwitching": 1,
+						"ucPhaseNav": 0,
+						"sMdsEndPosSBCS_mm": {
+							"dTra": 500
+						},
+						"sMdsPreScanNormalize": {
+							"ucMode": 2,
+							"ucStackMode": 4,
+							"lNPELin": 18
+						}
+					},
+					"sAAInitialOffset": {
+						"Laterality": 0,
+						"SliceInformation": {
+							"sPosition": {
+								"dCor": 0.9298739509590001,
+								"dTra": 5.56415656477
+							},
+							"sNormal": {
+								"dCor": -0.120136838903,
+								"dTra": 0.992757341921
+							}
+						}
+					},
+					"adFlipAngleDegree": 39,
+					"sCoilSelectMeas": {
+						"dOverallImageScaleFactor": 1.33333333333,
+						"dOverallImageScaleCorrectionFactor": 1,
+						"sCoilStringForConversion": "CSP",
+						"dAutoCoilSelectIlluRangeScale": 0.699999988079,
+						"aRxCoilSelectData": [
+							{
+								"tNucleus": "1H",
+								"iUsedRFactor": 3,
+								"IgnoreCoilGroups": 0,
+								"BCCombineMode": 1,
+								"bSuppressMandatoryProperties": 0,
+								"asList": [
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 1,
+										"lRxChannelConnected": 1,
+										"lADCChannelConnected": 1,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH1",
+											"ulUniqueKey": 119886530
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									},
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 2,
+										"lRxChannelConnected": 2,
+										"lADCChannelConnected": 2,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH2",
+											"ulUniqueKey": 1082468370
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									},
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 3,
+										"lRxChannelConnected": 3,
+										"lADCChannelConnected": 3,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH3",
+											"ulUniqueKey": 2112160162
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									},
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 4,
+										"lRxChannelConnected": 4,
+										"lADCChannelConnected": 4,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH4",
+											"ulUniqueKey": -809116238
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									},
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 5,
+										"lRxChannelConnected": 5,
+										"lADCChannelConnected": 5,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH5",
+											"ulUniqueKey": -224005118
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									},
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 6,
+										"lRxChannelConnected": 6,
+										"lADCChannelConnected": 6,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH6",
+											"ulUniqueKey": -1257926958
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									},
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 7,
+										"lRxChannelConnected": 7,
+										"lADCChannelConnected": 7,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH7",
+											"ulUniqueKey": -2006603934
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									},
+									{
+										"lElementSelected": 1,
+										"lMuxChannelConnected": 8,
+										"lRxChannelConnected": 8,
+										"lADCChannelConnected": 8,
+										"uiInsertionTime": 93,
+										"sCoilElementID": {
+											"tCoilID": "1Tx8Rx_CSpine",
+											"lCoilCopy": 1,
+											"tElement": "CH8",
+											"ulUniqueKey": 171258035
+										},
+										"sCoilProperties": {
+											"eCoilType": 4
+										}
+									}
+								],
+								"aFFT_SCALE": [
+									{
+										"flFactor": 1.01927995682,
+										"lADCChannel": 1,
+										"bValid": 1
+									},
+									{
+										"flFactor": 0.991954982281,
+										"lADCChannel": 2,
+										"bValid": 1
+									},
+									{
+										"flFactor": 0.982994019985,
+										"lADCChannel": 3,
+										"bValid": 1
+									},
+									{
+										"flFactor": 0.953305006027,
+										"lADCChannel": 4,
+										"bValid": 1
+									},
+									{
+										"flFactor": 0.916776001453,
+										"lADCChannel": 5,
+										"bValid": 1
+									},
+									{
+										"flFactor": 0.886866986752,
+										"lADCChannel": 6,
+										"bValid": 1
+									},
+									{
+										"flFactor": 0.9461079835889999,
+										"lADCChannel": 7,
+										"bValid": 1
+									},
+									{
+										"flFactor": 0.9037539958950001,
+										"lADCChannel": 8,
+										"bValid": 1
+									}
+								]
+							},
+							{
+								"tNucleus": [],
+								"iUsedRFactor": [],
+								"IgnoreCoilGroups": 0,
+								"BCCombineMode": 1,
+								"bSuppressMandatoryProperties": 0,
+								"asList": [],
+								"aFFT_SCALE": []
+							}
+						],
+						"aTxCoilSelectData": {
+							"tNucleus": "1H",
+							"asList": {
+								"lElementSelected": 1,
+								"sCoilElementID": {
+									"tCoilID": "1Tx8Rx_CSpine",
+									"lCoilCopy": 1,
+									"tElement": "1Tx",
+									"ulUniqueKey": 1562733336
+								},
+								"sTxScaleFactorCP": {
+									"dRe": 1
+								},
+								"sTxScaleFactorEP": {
+									"dRe": 1
+								},
+								"sCoilProperties": {
+									"eCoilType": 3
+								}
+							}
+						},
+						"CoilPlugs": {
+							"Plug": [
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 121
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								},
+								{
+									"IdPart": 238
+								}
+							]
+						}
+					},
+					"sCoilSelectUI": {
+						"dOverallImageScaleFactor": 1,
+						"dOverallImageScaleCorrectionFactor": 1,
+						"dAutoCoilSelectIlluRangeScale": 0.7,
+						"aRxCoilSelectData": [
+							{
+								"IgnoreCoilGroups": 0,
+								"BCCombineMode": 1,
+								"bSuppressMandatoryProperties": 0
+							},
+							{
+								"IgnoreCoilGroups": 0,
+								"BCCombineMode": 1,
+								"bSuppressMandatoryProperties": 0
+							}
+						]
+					},
+					"sParametricMapping": {
+						"ucParametricMap": 1
+					},
+					"sAsl": {
+						"ulMode": 1
+					},
+					"sWorkflow": {
+						"eConflictSolverStrategy": 1,
+						"ucDotVoiceSettingsOverride": 1,
+						"ucDotPauseSettingsOverride": 1
+					},
+					"sDynDistCorrFilter": {
+						"ucMode": 1
+					},
+					"sChannelMatrix": {
+						"ucChannelMixingMode": 1,
+						"ucChannelDiscardMode": 1
+					},
+					"sPTXData": {
+						"uiPTXTargetMagMode": 1,
+						"sPTXMPRSliceArray": {
+							"sTSat": {
+								"ulShape": 1
+							}
+						},
+						"sPTXMPRGroupArray": {
+							"sPSat": {
+								"ulShape": 1
+							}
+						}
+					},
+					"sInlineCardioEval": {
+						"lInlineEvaMode": 1,
+						"lNoOfPreps": 1,
+						"alRecoveryDuration": 1,
+						"alSamplingDuration": 1
+					},
+					"sInteractive": {
+						"ucTracking": 0,
+						"ucSliceFollowing": 1,
+						"ucSliceFollowingMode": 1,
+						"lTrackingBackgroundSuppr": 5,
+						"lTrackingSensitivity": 1,
+						"lTrackingFlipAngle": 10,
+						"ucPause": 0,
+						"ucMosaic": 0,
+						"ucSkipPhysioTrigger": 0
+					},
+					"sDixonData": {
+						"ucDixon": 0,
+						"ucDixonEvaluation": 0,
+						"ucFastDixon": 0,
+						"sMrDixonOptions": {
+							"ucDixonFat": 0,
+							"ucDixonWater": 0,
+							"ucDixonInPhase": 0,
+							"ucDixonOpposedPhase": 0,
+							"ucDixonOriginalEchoes": 1
+						},
+						"sMrDixonEvaluationOptions": {
+							"ucDixonEvaWaterFraction": 0,
+							"ucDixonEvaFatFraction": 0,
+							"ucDixonEvaT2Star": 0,
+							"ucDixonEvaR2Star": 0,
+							"ucDixonEvaReport": 0
+						}
+					},
+					"sSliceAcceleration": {
+						"lMultiBandFactor": 1
+					}
+				},
+				"GradientMode": "Fast",
+				"FlowCompensation": "No",
+				"RFSWDOperationMode": 0,
+				"RFSWDMostCriticalAspect": "Head Local",
+				"SARMostCriticalAspect": [10,9.22090929,0],
+				"TablePositionOrigin": [0,0,-2208],
+				"B1rms": [-9999,-9999],
+				"B1rmsSupervision": "NO",
+				"TalesReferencePower": 2158.36483955,
+				"PhaseSliceOversampling": "NONE",
+				"SafetyStandard": "IEC",
+				"DICOMImageFlavor": "",
+				"DICOMAcquisitionContrast": "",
+				"EchoTrainLength": 4,
+				"RFEchoTrainLength": 0,
+				"GradientEchoTrainLength": 1,
+				"Laterality4MF": "U"
+			},
+			"Private_0029_1160": "com ",
+			"PerformedProcedureStepStartDate": 738357,
+			"PerformedProcedureStepStartTime": 48464.916,
+			"PerformedProcedureStepID": "MR20210720132744",
+			"PerformedProcedureStepDescription": "Maryam^C-spine",
+			"Private_0051_0010": "SIEMENS MR HEADER ",
+			"Private_0051_1008": "IMAGE NUM 4 ",
+			"Private_0051_1009": "1.0 ",
+			"Private_0051_100a": "TA 03:19",
+			"Private_0051_100b": "500*500 ",
+			"Private_0051_100c": "FoV 128*128 ",
+			"Private_0051_100d": "SP F27.6",
+			"Private_0051_100e": "Tra>Cor(6.9)",
+			"Private_0051_100f": "CSP ",
+			"Private_0051_1012": "TP 0",
+			"Private_0051_1013": "+LPH",
+			"Private_0051_1016": "M/ND",
+			"Private_0051_1017": "SL 3.0",
+			"Private_0051_1019": "A1",
+			"StartOfPixelData": 110884,
+			"SizeOfPixelData": 4294967295,
+			"VROfPixelData": "OB"
+		}
+	]
+}
