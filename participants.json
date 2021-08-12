@@ -13,6 +13,6 @@
     },
     "participant_id_unique": {
         "Description": "Unique Participant ID",
-        "LongName": "Participant ID that matches submission with subject"
+        "LongName": "Unique participant ID. This is a hack to overcome the fact that several participant_id used the same subject, which is not BIDS-compliant. More details at https://github.com/sct-pipeline/gm-challenge-data/issues/7"
     }
 }
