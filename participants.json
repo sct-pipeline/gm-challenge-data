@@ -10,5 +10,9 @@
     "age": {
         "Description": "yy",
         "LongName": "Participant age"
+    },
+    "participant_id_unique": {
+        "Description": "Unique Participant ID",
+        "LongName": "Participant ID that matches submission with subject"
     }
 }
