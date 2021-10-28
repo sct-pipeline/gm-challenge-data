@@ -10,17 +10,17 @@ Data are organized according to BIDS:
 ~~~
 ├── derivatives
 │   └── labels
-│       └── sub-10062
+│       └── sub-10062Ses1
 │           └── anat
-│               ├── sub-10062_run-1_T2starw_gmseg-manual.json
-│               ├── sub-10062_run-1_T2starw_gmseg-manual.json
-│               ├── sub-10062_run-1_T2starw_seg-manual.json
-│               └── sub-10062_run-1_T2starw_seg-manual.json
+│               ├── sub-10062Ses1_run-1_T2starw_gmseg-manual.json
+│               ├── sub-10062Ses1_run-1_T2starw_gmseg-manual.json
+│               ├── sub-10062Ses1_run-1_T2starw_seg-manual.json
+│               └── sub-10062Ses1_run-1_T2starw_seg-manual.json
 │
-└── sub-10062
+└── sub-10062Ses1
     └── anat
-        ├── sub-10062_run-1_T2starw.json
-        ├── sub-10062_run-1_T2starw.nii.gz
-        ├── sub-10062_run-2_T2starw.json
-        └── sub-10062_run-2_T2starw.nii.gz
+        ├── sub-10062Ses1_run-1_T2starw.json
+        ├── sub-10062Ses1_run-1_T2starw.nii.gz
+        ├── sub-10062Ses1_run-2_T2starw.json
+        └── sub-10062Ses1_run-2_T2starw.nii.gz
 ~~~
