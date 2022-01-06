@@ -2,5 +2,6 @@
 	"Modality": "MR",
 	"MagneticFieldStrength": 7,
 	"Manufacturer": "Siemens",
-	"InstitutionName": "Oxford"
+	"InstitutionName": "Oxford",
+	"AcquisitionDuration": "353"
 }

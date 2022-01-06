@@ -2,5 +2,6 @@
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
 	"Manufacturer": "Siemens",
-	"InstitutionName": "Juntendo"
+	"InstitutionName": "Juntendo",
+	"AcquisitionDuration": "285"
 }
