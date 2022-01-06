@@ -3,5 +3,6 @@
 	"MagneticFieldStrength": 3,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "Prisma fit",
-	"InstitutionName": "North-West University"
+	"InstitutionName": "North-West University",
+	"AcquisitionDuration": "352"
 }

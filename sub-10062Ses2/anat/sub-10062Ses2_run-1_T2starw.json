@@ -3,5 +3,6 @@
 	"MagneticFieldStrength": 3,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "Prisma",
-	"InstitutionName": "CEITEC"
+	"InstitutionName": "CEITEC",
+	"AcquisitionDuration": "476"
 }

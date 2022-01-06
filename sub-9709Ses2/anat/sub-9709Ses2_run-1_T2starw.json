@@ -3,5 +3,6 @@
 	"MagneticFieldStrength": 1.5,
 	"Manufacturer": "Siemens",
 	"ManufacturersModelName": "Avanto",
-	"InstitutionName": "Milan"
+	"InstitutionName": "Milan",
+	"AcquisitionDuration": "462"
 }
